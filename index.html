@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
     <link rel="icon" href="assets/man.png">
@@ -18,6 +18,16 @@
         </div>
 
         <div class="header_nav_div">
+            <a href="#Page_header" class="hide">Home</a>
+            <a href="#about_sec" class="hide">About Me</a>
+            <a href="#skill_sec" class="hide">Skills</a>
+            <a href="#Projects_sec" class="hide">Projects</a>
+            <a href="#Contact_sec" class="hide">Contact</a>
+            <a class="Menu_bar" onclick="ShowSideBar()"><img src="assets/menu.png" alt="menubutton"></a>
+        </div>
+
+        <div class="SideBar">
+            <a class="Cross_Bar" onclick="HideSideBar()"><img src="assets/cross.png" alt="crossbar"></a>
             <a href="#Page_header">Home</a>
             <a href="#about_sec">About Me</a>
             <a href="#skill_sec">Skills</a>
@@ -32,44 +42,44 @@
 
         <section id="Intro_sec" class="Intro_sec">
             <div class="Intro_text_div intro_detials">
-                <h1>Hi I'm Prasanna Rajan</h1>
-                <h3>Front-end Developer</h3>
-                <p>A Front-End Developer is responsible for developing new user-facing features, determining the
+                <h1 class="comman_text_size10">Hi I'm Prasanna Rajan</h1>
+                <h3 class="comman_text_size10">Front-end Developer</h3>
+                <p class="comman_text_size10">A Front-End Developer is responsible for developing new user-facing features, determining the
                     structure and design, So we can create intractive and dynamic Web pages.</p>
 
                 <button style="background-color: blue;">Hire Me</button> <button style="background-color: red;">Let's
                     Talk</button>
             </div>
             <div class="intro_detials Intro_img_div ">
-                <img src="assets/Intro_pic.jpg" alt="Intro_pic" height="500px" width="400px">
+                <img src="assets/Intro_pic.jpg" alt="Intro_pic" class="Img_Port_class comman_img_size">
             </div>
         </section>
 
         <section id="about_sec" class="about_sec">
 
             <div class="about_img_div about_detials">
-                <img src="assets/About_pic.avif" alt="About_pic" height="500px" width="400px">
+                <img src="assets/About_pic.avif" alt="About_pic" class="Img_Port_class comman_img_size">
             </div>
             <div class="About_text_div about_detials">
-                <h1 class="about_text">ABOUT</h1>
-                <p class="about_detial_para">As a Engineering Fresher, I'm very much excited to join and contribute to
+                <h1 class="about_text comman_text_size">ABOUT</h1>
+                <p class="about_detial_para comman_text_size10">As a Engineering Fresher, I'm very much excited to join and contribute to
                     the world of digital transformation.</p>
-                <div class="about_detial ">
+                <div class="about_detial">
 
                     <ul>
-                        <li><span class="about_me">College : </span><span>IFET College of Engineering (2020 -
+                        <li class="comman_text_size10 "><span class="about_me">College : </span><span>IFET College of Engineering (2020 -
                                 2023)</span></li>
-                        <li><span class="about_me">Diploma : </span><span>Vigneshwara polytechnic college</span></li>
-                        <li><span class="about_me">School : </span><span>St.Paul's matric.hr.sec.school neyveli</span>
+                        <li class="comman_text_size10 "><span class="about_me">Diploma : </span><span>Vigneshwara polytechnic college</span></li>
+                        <li class="comman_text_size10 "><span class="about_me">School : </span><span>St.Paul's matric.hr.sec.school neyveli</span>
                         </li>
-                        <li><span class="about_me">Town : </span><span>Neyveli 607303,Tamil Nadu</span></li>
+                        <li class="comman_text_size10 "><span class="about_me">Town : </span><span>Neyveli 607303,Tamil Nadu</span></li>
                     </ul>
 
-                    <ul>
-                        <li><span class="about_me">Degree : </span><span>B.E (Mechanical Engineering)</span></li>
-                        <li><span class="about_me">Email : </span><span>prasanna555001@gmail.com</span></li>
-                        <li><span class="about_me">Phone Number : </span><span>+91 6382083939</span></li>
-                        <li><span class="about_me">D.O.B : </span><span>10/02/2001</span></li>
+                    <ul class="aboutuldtl">
+                        <li class="comman_text_size10 "><span class="about_me ">Degree : </span><span>B.E (Mechanical Engineering)</span></li>
+                        <li class="comman_text_size10 "><span class="about_me ">Email : </span><span>prasanna555001@gmail.com</span></li>
+                        <li class="comman_text_size10 "><span class="about_me ">Phone Number : </span><span>+91 6382083939</span></li>
+                        <li class="comman_text_size10 "><span class="about_me ">D.O.B : </span><span>10/02/2001</span></li>
 
                     </ul>
                 </div>
@@ -80,17 +90,17 @@
         <section id="skill_sec" class="skill_sec">
 
 
-            <div class="skill_div ">
-                <h1 class="about_text">SKILLS</h1>
-                <h3>Anyone who has never made a mistake has never tried anything new</h3>
+            <div class="skill_div SkilldivTag">
+                <h1 class="about_text comman_text_size">SKILLS</h1>
+                <h3 class="comman_text_size10">Anyone who has never made a mistake has never tried anything new</h3>
 
                 <article class="Skill_tag">
                     <div class="Skill_imgspan">
-                        <img src="assets/html-5.png" alt="HTML5_img" height="50px" width="50px">
-                        <img src="assets/css-3.png" alt="CSS3_img" height="50px" width="50px">
-                        <img src="assets/javascript.webp" alt="JavaScript_img" height="50px" width="50px">
-                        <img src="assets/Angular.png" alt="ANGULAR_img" height="50px" width="50px">
-                        <img src="assets/primeng-logo.webp" alt="PRIMENG_img" height="50px" width="50px">
+                        <img src="assets/html-5.png" alt="HTML5_img" class="Skill_tag_Images">
+                        <img src="assets/css-3.png" alt="CSS3_img" class="Skill_tag_Images">
+                        <img src="assets/javascript.webp" alt="JavaScript_img" class="Skill_tag_Images">
+                        <img src="assets/Angular.png" alt="ANGULAR_img" class="Skill_tag_Images">
+                        <img src="assets/primeng-logo.webp" alt="PRIMENG_img" class="Skill_tag_Images">
                     </div>
                     <div>
                         <h2 class="Skill_textspan">HTML5</h2>
@@ -103,15 +113,15 @@
             </div>
 
             <div class="skill_div skill_img">
-                <img src="assets/Skill_pic.jpg" alt="Skill_pic" height="500px" width="450px">
+                <img src="assets/Skill_pic.jpg" alt="Skill_pic" class="Img_Port_class comman_img_size">
             </div>
         </section>
 
         <section id="Projects_sec" class="Projects_sec">
 
             <!-- <div class="Projects_textdiv"> -->
-            <h1 class="projects_text">Projects</h1>
-            <h3>Excellence is a continuous process and not an accident.</h3>
+            <h1 class="projects_text comman_text_size">Projects</h1>
+            <h3 class="comman_text_size10">Excellence is a continuous process and not an accident.</h3>
 
             <div class="wrapper">
                 <img src="assets/Left-arrow.png" alt="Left-arrow" id="left" class="arrow">
@@ -119,8 +129,8 @@
 
                     <li class="card">
                         <div class="img"> <a href=" https://prasannarajans.github.io/HTML-Project/" target="_blank">
-                                <img src="assets/project_Html_pic.jpg" alt="project_Html_pic" height="250px"
-                                    width="300px" draggable="false">
+                                <img src="assets/project_Html_pic.jpg" alt="project_Html_pic" class="Project_Image"
+                                 draggable="false">
                             </a></div>
 
                     </li>
@@ -128,7 +138,7 @@
                     <li class="card">
                         <div class="img"> <a href=" https://prasannarajans.github.io/Nukku_Html_Css_project/"
                                 target="_blank"> <img src="assets/project_Css_pic.jpg" alt="project_Css_pic"
-                                    height="250px" width="300px" draggable="false">
+                                class="Project_Image" draggable="false">
                             </a></div>
 
                     </li>
@@ -136,7 +146,7 @@
                     <li class="card">
                         <div class="img"> <a href="https://prasannarajans.github.io/Project3_JavaScript_project/"
                                 target="_blank"> <img src="assets/project_javaScript_pic.jpg"
-                                    alt="project_javaScript_pic" height="250px" width="300px" draggable="false"> </a>
+                                class="Project_Image" alt="project_javaScript_pic" draggable="false"> </a>
                         </div>
 
                     </li>
@@ -151,28 +161,31 @@
 
     <footer id="Contact_sec" class="Contact_sec">
         <div class="Contact_textdiv">
-            <h1 class="contact_text">Contact</h1>
-            <h3>When you leave a beautiful place, you carry it with you wherever</h3>
-            <div class="Projects_context">
-                <img src="assets/map.png" alt="Loction" height="30px" width="30px">
-                <span class="Conttext">Loction : </span>
-                <span> Vadalur,TN India</span>
-
-                <img src="assets/gmail.png" alt="gmail" height="30px" width="30px">
-                <span class="Conttext">Email : </span>
-                <span> prasanna555001@gmail.com</span>
-
-                <img src="assets/whatsapp.png" alt="Number" height="30px" width="30px">
-                <span class="Conttext">Mobile No : </span>
-                <span> +91 6382083939</span>
-
+            <h1 class="contact_text comman_text_size">Contact</h1>
+            <h3 class="comman_text_size10">When you leave a beautiful place, you carry it with you wherever</h3>
+            <div class="Projects_context comman_text_size10">
+                <div>
+                    <img src="assets/map.png" alt="Loction" class="Contact_image">
+                    <span class="Conttext comman_text_size10">Loction : </span>
+                    <span> Vadalur,TN India</span>
+                </div>
+                <div>
+                    <img src="assets/gmail.png" alt="gmail" class="Contact_image">
+                    <span class="Conttext comman_text_size10">Email : </span>
+                    <span> prasanna555001@gmail.com</span>
+                </div>
+                <div>
+                    <img src="assets/whatsapp.png" alt="Number" class="Contact_image">
+                    <span class="Conttext comman_text_size10">Mobile No : </span>
+                    <span> +91 6382083939</span>
+                </div>
             </div>
         </div>
         <div class="Map_link">
 
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d125076.7977088354!2d79.55087359999999!3d11.57693440000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1708952775448!5m2!1sen!2sin"
-                width="1400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                style="border:0;" allowfullscreen="" loading="lazy" class="Iframe_tag"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
